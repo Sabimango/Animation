@@ -1,0 +1,103 @@
+* {
+    font-family: 'Redressed', 'ZCOOL XiaoWei';
+  }
+  
+  html,
+  body {
+    background: #242323;
+    font-family: 'Redressed', cursive;
+    padding: 1em;
+  }
+  
+  body {
+    max-width: 1500px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'ZCOOL XiaoWei', serif;
+    color: #662626;
+    font-size: 34px;
+  }
+  
+  p {
+    color:  #662626;
+    font-family: 'Redressed', cursive;
+  }
+  
+  .label {
+    color: #662626;
+  }
+  
+  .send-button {
+    background-color: #662626;
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    opacity: 0.6;
+    cursor: pointer;
+    font-family: 'Redressed', cursive;
+  }
+
+  .send-button:hover {
+    background-color: rgb(177, 43, 43);
+    transition: all 0.9s ease-in-out;
+    transition-delay: 0.1s;
+  }
+  .main-body {
+    justify-content: center; /* Center align stuff */
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  input,
+  textarea,
+  select {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Redressed', cursive;
+    resize: none;
+    background-color: #757575;
+  }
+  
+  textarea {
+    height: 126px;
+  }
+  
+  .right-layout {
+    max-width: 518px;
+    flex: 0 518px ;
+    padding-right: 30px;
+  }
+  .zushi {
+    flex: 0 400px;
+    margin-left: 30px;
+  } 
+
+  img {
+    animation: img 3.5s ease infinite;
+    animation-direction: reverse;
+    animation-fill-mode: none;
+  }
+
+  @keyframes img {
+	0% {transform: scale(1) rotate(0deg);}
+	50% {transform: scale(1.1) rotate(360deg);}
+	100% {transform: scale(1) rotate(0deg);}
+}
